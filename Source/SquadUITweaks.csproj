@@ -7,8 +7,8 @@
     <ProjectGuid>{6F65972F-732A-4EBD-A7A4-B5AE6436F128}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UIImprovements</RootNamespace>
-    <AssemblyName>UIImprovements</AssemblyName>
+    <RootNamespace>SquadUITweaks</RootNamespace>
+    <AssemblyName>SquadUITweaks</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
