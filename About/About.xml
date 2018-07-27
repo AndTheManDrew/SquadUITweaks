@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>UI Improvements</name>
+    <name>Squad UI Tweaks</name>
     <author>drumad</author>
     <targetVersion>1.0.0</targetVersion>
     <url></url>
     <description>
+A few minor tweaks to the UI when selecting groups:
+  -shows weapon range when the mouse is over the "Attack" button
+  -shows the weapon types that are equipped 
+   -- clicking the weapon allows for assigning targets to all pawns with that weapon
+All of the code is basically vanilla Rimworld, I just linked various bits up. Hopefully this or something along these lines will be incorporated into [1.0]
+&lt;size=24&gt;Powered by Harmony&lt;/size&gt;
 	</description>
 </ModMetaData>
