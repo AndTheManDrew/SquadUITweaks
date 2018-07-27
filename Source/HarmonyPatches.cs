@@ -14,7 +14,7 @@ namespace SquadUITweaks
     {
         static HarmonyPatches()
             {
-                var harmony = HarmonyInstance.Create("drumad.rimworld.mod.UIImprovements");
+                var harmony = HarmonyInstance.Create("drumad.rimworld.mod.squadUItweaks");
 
                 var thistype = typeof(HarmonyPatches);
 
