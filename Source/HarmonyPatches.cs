@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Text;
-using Harmony;
+
+using HarmonyLib;
 using RimWorld;
 using Verse;
 
@@ -14,7 +15,7 @@ namespace SquadUITweaks
     {
         static HarmonyPatches()
             {
-                var harmony = HarmonyInstance.Create("drumad.rimworld.mod.squadUItweaks");
+                var harmony = new Harmony("drumad.rimworld.mod.squadUItweaks");
 
                 var thistype = typeof(HarmonyPatches);
 
