@@ -2,8 +2,12 @@
 <ModMetaData>
     <name>Squad UI Tweaks</name>
     <author>drumad</author>
-    <targetVersion>1.0.0</targetVersion>
-    <url></url>
+      <supportedVersions>
+	  <li>1.0</li>
+    <li>1.1</li>
+  </supportedVersions>
+	<packageId>drumad.squaduitweaks</packageId>
+    <url>https://github.com/AndTheManDrew/SquadUITweaks</url>
     <description>
 A few minor tweaks to the UI when selecting groups:
   -shows weapon range when the mouse is over the "Attack" button
