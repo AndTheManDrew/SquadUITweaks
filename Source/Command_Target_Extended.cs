@@ -24,7 +24,8 @@ namespace SquadUITweaks
 
         public override GizmoResult GizmoOnGUI(
             Vector2 topLeft,
-            float   maxWidth)
+            float   maxWidth,
+            GizmoRenderParms parms)
             {
                 CurrentTargetGizmos.Clear();
                 foreach (var command in TraverseOffirstGizmos
@@ -34,7 +35,7 @@ namespace SquadUITweaks
                     {
                         CurrentTargetGizmos.Add(command);
                     }
-                return base.GizmoOnGUI(topLeft, maxWidth);
+                return base.GizmoOnGUI(topLeft, maxWidth, parms);
             }
 
         private static Traverse traverseOfFirstGizmos;
